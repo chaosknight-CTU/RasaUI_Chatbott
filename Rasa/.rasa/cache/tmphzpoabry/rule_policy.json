@@ -1,0 +1,30 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"chao_hoi\"}}]": "utter_chaohoi",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"chao_hoi\"}}, {\"prev_action\": {\"action_name\": \"utter_chaohoi\"}, \"user\": {\"intent\": \"chao_hoi\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tam_biet\"}}]": "utter_tambiet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tam_biet\"}}, {\"prev_action\": {\"action_name\": \"utter_tambiet\"}, \"user\": {\"intent\": \"tam_biet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"lt_what_asking\"}}]": "action_traloilt",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"lt_what_asking\"}}, {\"prev_action\": {\"action_name\": \"action_traloilt\"}, \"user\": {\"intent\": \"lt_what_asking\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cam_on\"}}]": "utter_cam_on",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cam_on\"}}, {\"prev_action\": {\"action_name\": \"utter_cam_on\"}, \"user\": {\"intent\": \"cam_on\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"muc_tieu\"}}]": "utter_muctieu",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"muc_tieu\"}}, {\"prev_action\": {\"action_name\": \"utter_muctieu\"}, \"user\": {\"intent\": \"muc_tieu\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hoi_ten\"}}]": "utter_hoiten",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hoi_ten\"}}, {\"prev_action\": {\"action_name\": \"utter_hoiten\"}, \"user\": {\"intent\": \"hoi_ten\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"gioi_thieu\"}}]": "utter_gioithieu",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"gioi_thieu\"}}, {\"prev_action\": {\"action_name\": \"utter_gioithieu\"}, \"user\": {\"intent\": \"gioi_thieu\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cam_on\"}}, {\"prev_action\": {\"action_name\": \"utter_cam_on\"}, \"user\": {\"intent\": \"cam_on\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cam_on\"}}]"
+    ]
+  }
+}

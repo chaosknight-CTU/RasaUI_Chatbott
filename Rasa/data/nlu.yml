@@ -1,0 +1,375 @@
+version: "3.1"
+
+nlu:
+- intent: chao_hoi
+  examples: |
+    - hey
+    - hello
+    - hi
+    - xin chào
+    - chào
+    - chào bạn
+    - bạn ơi
+    - anh ơi
+    - em ơi
+    - chị ơi
+    - cin chào
+
+- intent: tam_biet
+  examples: |
+    - tạm biệt
+    - hẹn gặp lại
+    - bye
+    - bai
+
+- intent: hoi_ten
+  examples: |
+    - bạn là gì ?
+    - bạn là ai ?
+    - bạn tên là gì ?
+    - chatbot gì ?
+    - bạn tên gì ?
+    - xin lỗi, tôi không biết tên bạn, bạn có thể cho mình biết không?
+    - cho mình xin tên của bạn
+    - tôi muốn biết bạn tên gì
+    - xin chào, tên bạn là gì 
+    - bạn có thể giới thiệu về bản thân không
+
+- intent: chuc_nang
+  examples: |
+    - bạn làm được gì ? 
+    - bạn có thể làm gì ? 
+    - bạn có thể giúp gì cho tôi ?
+    - chức năng của bạn là gì ? 
+    - chức năng chính của bạn là gì ?
+    - bạn hỗ trợ gì ?
+    - chức năng
+    - khả năng
+    - bạn có khả năng làm gì ?
+
+- intent: gioi_thieu
+  examples: |
+    - mã học phần 
+    - tên học phần 
+    - môn tiên quyết
+    - điều kiện tiên quyết
+    - số tín chỉ
+    - số tiết
+    - thông tin môn học
+    - đề cương môn học
+
+- intent: muc_tieu
+  examples: |
+    - mục tiêu
+    - mục tiêu học phần
+    - kiến thúc đạt được
+    - kĩ năng đạt được 
+    - mục đích
+    - yêu cầu sau khi học  
+    - mục tiêu môn học
+- intent: cam_on
+  examples: |
+    - cảm ơn
+    - thank
+    - thank you
+
+
+
+- intent: lt_what_asking
+  examples: |
+    - [toán rời rạc](lt_content:trr) là gì 
+    - [toán rời rạc](lt_content:trr)
+    - [toan roi rac la gi](lt_content:trr)
+
+    - [mệnh đề](lt_content:menhde) là gì cho ví dụ
+    - [mệnh đề](lt_content:menhde) là gì
+    - [mệnh đề](lt_content:menhde)
+    
+    - phân biệt giữa [mệnh đề khẳng định và mệnh đề phủ định](lt_content:menhde_khangdinhphudinh)
+    - [phân biệt mệnh đề khẳng định và mệnh đề phủ định](lt_content:menhde_khangdinhphudinh)
+    - [mệnh đề khẳng định và mệnh đề phủ định](lt_content:menhde_khangdinhphudinh)
+    
+    - [giải thích về mệnh đề nghi vấn](lt_content:menhde_nghivan) cho ví dụ
+    - [giải thích về mệnh đề nghi vấn](lt_content:menhde_nghivan)
+    - [giải thích mệnh đề nghi vấn](lt_content:menhde_nghivan)
+
+    - [mệnh đề độc lập và mệnh đề phụ thuộc](lt_content:khacnhau_menhdedoclapvaphuthuoc) khác nhau như thế nào
+    - [mệnh đề độc lập và mệnh đề phụ thuộc](lt_content:khacnhau_menhdedoclapvaphuthuoc)
+    - [khác nhau mệnh đề độc lập và mệnh đề phụ thuộc](lt_content:khacnhau_menhdedoclapvaphuthuoc)
+
+    - [trình bày về cấu trúc mệnh đề](lt_content:cautruc_menhde) bao gồm những phần nào
+    - [trình bày về cấu trúc mệnh đề](lt_content:cautruc_menhde)
+    - [cấu trúc mệnh đề](lt_content:cautruc_menhde)
+
+    - [tại sao mệnh đề](lt_content:taisao_menhdequantrong) là một phần quan trọng của câu
+    - [tại sao mệnh đề là một phần quan trọng của câu](lt_content:taisao_menhdequantrong) 
+
+    - phân biệt giữa [mệnh đề chủ đề và mệnh đề bổ nghĩa](lt_content:menhde_chude_bonghia)
+    - [phân biệt giữa mệnh đề chủ đề và mệnh đề bổ nghĩa](lt_content:menhde_chude_bonghia)
+    - [phân biệt giữa mệnh đề chủ đề mệnh đề bổ nghĩa](lt_content:menhde_chude_bonghia)
+
+    - [thế nào là mệnh đề phụ hợp](lt_content:menhde_phuhop)
+    - [mệnh đề phù hợp là thế nào](lt_content:menhde_phuhop)
+    - [mệnh đề phụ hợp](lt_content:menhde_phuhop) là thế nào
+
+    - [vị từ là gì để làm gì trong câu](lt_content:vi_tu)
+    - [vị từ](lt_content:vi_tu) là gì
+    - [vị từ là gì](lt_content:vi_tu) để làm gì trong câu
+
+
+    - [giải thích về vị từ nhân xứng](lt_content:vitu_nhanxung) cho ví dụ
+    - [giải thích về vị từ nhân xứng cho ví dụ](lt_content:vitu_nhanxung)
+    - [cho ví dụ giải thích về vị từ nhân xứng](lt_content:vitu_nhanxung)
+    - [vị từ nhân xứng](lt_content:vitu_nhanxung)
+
+    - [vị từ nối tiếp](lt_content:vitu_noitiep) là gì cho ví dụ
+    - [vị từ nối tiếp là gì](lt_content:vitu_noitiep)cho ví dụ
+    - [vị từ nối tiếp là gì cho ví dụ](lt_content:vitu_noitiep)
+
+    - phân biệt giữa [vị từ phụ hợp và vị từ nhân xứng](lt_content:phanbiet_vitu_phuhop_nhanxung)
+    - [phân biệt giữa vị từ phụ hợp và vị từ nhân xứng](lt_content:phanbiet_vitu_phuhop_nhanxung)
+    - [vị từ phụ hợp và vị từ nhân xứng](lt_content:phanbiet_vitu_phuhop_nhanxung)
+    
+    - [thế nào là vị từ bổ sung](lt_content:vitu_bosung)
+    - [vị từ bổ sung](lt_content:vitu_bosung)
+    - [vị từ bổ sung](lt_content:vitu_bosung) là thế nào
+
+    - [tại sao vị từ quan trọng trong việc xây dựng câu phức](lt_content:taisao_vitu_quantrong_xaydung_cauphuc)
+    - [xây dựng câu phức](lt_content:taisao_vitu_quantrong_xaydung_cauphuc)
+    - [vị từ quan trọng trong việc xây dựng câu phức](lt_content:taisao_vitu_quantrong_xaydung_cauphuc) tại sao
+    - [tại sao vị từ quan trọng](lt_content:taisao_vitu_quantrong_xaydung_cauphuc) trong việc xây dựng câu phức
+
+    - [làm thế nào để sử dụng vị từ một cách đúng đắn để kết nối các mệnh đề trong một câu phức](lt_content:sudung_vitu)
+    - làm thế nào để [sử dụng vị từ](lt_content:sudung_vitu) một cách đúng đắn để kết nối các mệnh đề trong một câu phức
+    
+    - [suy luận toán học](lt_content:suyluan_toanhoc) là gì
+    - [suy luận toán học là gì](lt_content:suyluan_toanhoc)
+    - [suy luan toan hoc la gi](lt_content:suyluan_toanhoc)
+
+    - [tại sao suy luận toán học](lt_content:taisao_suyluan_toanhoc) quan trọng trong môn toán rời rạc
+    - [tại sao suy luận toán học quan trọng trong môn toán rời rạc](lt_content:taisao_suyluan_toanhoc) 
+    - [tai sao suy luan toan hoc](lt_content:taisao_suyluan_toanhoc)
+
+    - phân biệt giữa suy luận toán học và [suy luận thông thường](lt_content:phanbiet_slth_sltt)
+    - [phân biệt giữa suy luận toán học và suy luận thông thường](lt_content:phanbiet_slth_sltt)
+    - [phân biệt suy luận toán học và suy luận thông thường](lt_content:phanbiet_slth_sltt)
+
+    - [quy tắc logic cơ bản nào được sử dụng trong suy luận toán học](lt_content:logic_slth)
+    - [quy tắc logic cơ bản](lt_content:logic_slth) nào được sử dụng trong suy luận toán học
+
+    - [giải thích về phép chứng minh toán học và vai trò của nó trong suy luận toán học](lt_content:phepchungminh_vaitro)
+    - giải thích về [phép chứng minh toán học và vai trò của nó trong suy luận toán học](lt_content:phepchungminh_vaitro)
+    - giải thích về [phép chứng minh toán học và vai trò](lt_content:phepchungminh_vaitro) của nó trong suy luận toán học
+
+    - [làm thế nào để xác định tính đúng đắn của một suy luận toán học](lt_content:tinhdungdan)
+    - làm thế nào để xác định [tính đúng đắn của một suy luận toán học](lt_content:tinhdungdan)
+
+    - [lý thuyết đồ thị và lý thuyết tập hợp](lt_content:ltdt_ltth) có vai trò như thế nào trong suy luận toán học
+    - [lý thuyết đồ thị và lý thuyết tập hợp có vai trò như thế nào trong suy luận toán học](lt_content:ltdt_ltth) 
+
+    - [phép đếm](lt_content:phepdem) là gì
+    - [phép đếm là gì](lt_content:phepdem)
+
+    - [tại sao phép đếm](lt_content:taisao_phepdem) quan trọng trong toán rời rạc và cuộc sống hàng ngày
+    - [tại sao phép đếm quan trọng trong toán rời rạc và cuộc sống hàng ngày](lt_content:taisao_phepdem)
+
+    - phân biệt giữa[phép đếm cơ bản và phép đếm kết hợp](lt_content:phanbiet_phepdem)
+    - [phân biệt giữa phép đếm cơ bản và phép đếm kết hợp](lt_content:phanbiet_phepdem)
+
+    - giải thích về [nguyên lý cơ bản của phép đếm](lt_content:nguyenly_phepdem)
+    - [giải thích về nguyên lý cơ bản của phép đếm](lt_content:nguyenly_phepdem)
+    - [giải thích nguyên lý cơ bản của phép đếm](lt_content:nguyenly_phepdem)
+    
+    - làm thế nào để [tính tổng số cách xếp n đối tượng vào k vị trí khác nhau](lt_content:tinhtong_nk)
+    - [làm thế nào để tính tổng số cách xếp n đối tượng vào k vị trí khác nhau](lt_content:tinhtong_nk)
+    - [tính tổng số cách xếp n đối tượng vào k vị trí khác nhau](lt_content:tinhtong_nk)
+
+    - giải thích về [nguyên tắc số học trong phép đếm](lt_content:nguyentac_sohoc)
+    - [giải thích về nguyên tắc số học trong phép đếm](lt_content:nguyentac_sohoc)
+    - [nguyên tắc số học trong phép đếm](lt_content:nguyentac_sohoc)
+
+    - làm thế nào để [sử dụng các công thức trong phép đếm](lt_content:sudung_phepdem) chẳng hạn như quy tắc nhân và quy tắc cộng
+    - [làm thế nào để sử dụng các công thức trong phép đếm chẳng hạn như quy tắc nhân và quy tắc cộng](lt_content:sudung_phepdem)
+    - [làm thế nào để sử dụng các công thức trong phép đếm như quy tắc nhân và quy tắc cộng](lt_content:sudung_phepdem) 
+
+    - làm thế nào để giải quyết các [bài toán phức tạp liên quan đến phép đếm](lt_content:giaiquyet_phepdem)
+    - [làm thế nào để giải quyết các bài toán phức tạp liên quan đến phép đếm](lt_content:giaiquyet_phepdem)
+    - [giải quyết các bài toán phức tạp liên quan đến phép đếm](lt_content:giaiquyet_phepdem)
+
+    - [quy tắc suy luận trong toán rời rạc là gì](lt_content:quytac_suyluan)
+    - [quy tắc suy luận trong toán rời rạc](lt_content:quytac_suyluan)
+    - [quy tắc suy luận](lt_content:quytac_suyluan) trong toán rời rạc là gì
+
+    - [phương pháp chứng minh trong toán rời rạc là gì](lt_content:pp_chungminh_trr)
+    - [phương pháp chứng minh trong toán rời rạc](lt_content:pp_chungminh_trr)
+    - [phương pháp chứng minh](lt_content:pp_chungminh_trr) trong toán rời rạc là gì
+    
+    - [tại sao quy tắc suy luận và phương pháp chứng minh](lt_content:taisao_qtsl_ppcm_qt) quan trọng trong toán rời rạc
+    - [tại sao quy tắc suy luận và phương pháp chứng minh quan trọng trong toán rời rạc](lt_content:taisao_qtsl_ppcm_qt)
+
+    - [quy tắc suy luận Modus Ponens là gì](lt_content:suyluan_modusponens)
+    - [quy tắc suy luận Modus Ponens](lt_content:suyluan_modusponens) là gì
+    - quy tắc suy luận [Modus Ponens](lt_content:suyluan_modusponens) là gì
+    
+    - [phương pháp chứng minh bằng đối chứng](lt_content:pp_chungminh_doichung)(Proof by Contradiction) hoạt động như thế nào
+    - phương pháp [chứng minh bằng đối chứng](lt_content:pp_chungminh_doichung)hoạt động như thế nào
+    - [phương pháp chứng minh bằng đối chứng hoạt động như thế nào](lt_content:pp_chungminh_doichung)
+
+    - [trong chứng minh quy nạp](lt_content:cacbuoc_chungminh_quynap) có những bước chính nào
+    - [trong chứng minh quy nạp có những bước chính nào](lt_content:cacbuoc_chungminh_quynap)
+    - [chứng minh quy nạp](lt_content:cacbuoc_chungminh_quynap) có những bước nào
+
+    - [nguyên tắc đếm cơ bản nào trong toán rời rạc](lt_content:nguyentacdem)
+    - [nguyên tắc đếm](lt_content:nguyentacdem) cơ bản trong toán rời rạc
+    
+    - [đại số tổ hợp](lt_content:daiso_tohop) là gì
+    - [đại số tổ hợp là gì](lt_content:daiso_tohop)
+    - [đại số tổ hợp](lt_content:daiso_tohop)
+
+    - [hệ thức truy hồi](lt_content:hethuc_truyhoi) trong toán rời rạc là gì
+    - [hệ thức truy hồi là gì](lt_content:hethuc_truyhoi)
+    - [hệ thức truy hồi](lt_content:hethuc_truyhoi) là gì
+    - [hệ thức truy hồi trong toán rời rạc là gì](lt_content:hethuc_truyhoi)
+
+    - [đại số tổ hợp có ứng dụng](lt_content:ungdung_daisotohop) trong cuộc sống hàng ngày như thế nào
+    - [ứng dụng đại số tổ hợp](lt_content:ungdung_daisotohop) trong cuộc sống hằng ngày
+    - [đại số tổ hợp có ứng dụng trong cuộc sống hàng ngày như thế nào](lt_content:ungdung_daisotohop)
+    - [đại số tổ hợp có ứng dụng trong cuộc sống hàng ngày](lt_content:ungdung_daisotohop) như thế nào
+
+
+    - [hệ thức truy hồi có ứng dụng trong việc giải quyết bài toán nào](lt_content:ungdung_hethuctruyhoi)
+    - [ứng dụng của hệ thức truy hồi](lt_content:ungdung_hethuctruyhoi) trong việc giải quyết bài toán nào
+    - [hệ thức truy hồi có ưng dụng](lt_content:ungdung_hethuctruyhoi) trong việc giải quyết bài toán nào
+
+    - [sự khác biết của quy tắc số học và quy tắc cộng](lt_content:khacbiet_quytacsohoc_quytaccong)
+    - [quy tắc số học và quy tắc cộng có điểm khác biệt như thế nào](lt_content:khacbiet_quytacsohoc_quytaccong)
+    
+    - [tại sao tổ hợp được sử dụng trong lý thuyết thông tin và mã hóa](lt_content:taisao_tohop_ltth_mahoa)
+    - [tại sao tổ hợp](lt_content:taisao_tohop_ltth_mahoa) được sử dụng trong lý thuyết thông tin và mã hóa
+    - [tại sao tổ hợp được sử dụng](lt_content:taisao_tohop_ltth_mahoa) trong lý thuyết thông tin và mã hóa
+
+    - [hệ thức truy hồi được sử dụng trong giải quyết bài toán đệ quy cho ví dụ về việc sử dụng hệ thức truy hồi trong bài toán tháp Hanoi](lt_content:dequy_hethuc_truyhoi)
+    - [hệ thức truy hồi được sử dụng trong giải quyết bài toán đệ quy](lt_content:dequy_hethuc_truyhoi) cho ví dụ về việc sử dụng hệ thức truy hồi trong bài toán tháp hanoi
+    - [cho ví dụ về việc sử dụng hệ thức truy hồi trong bài toán tháp hanoi](lt_content:dequy_hethuc_truyhoi)
+
+    - [đại số boole](lt_content:daiso_boole) là gì
+    - [đại số boole là gì](lt_content:daiso_boole)
+    - [đại số boole là gì và tại sao nó quan trọng trong lĩnh vực toán rời rạc](lt_content:daiso_boole)
+    - [đại số boole là gì và tại sao nó quan trọng](lt_content:daiso_boole) trong lĩnh vực toán rời rạc
+
+    - [các phép toán cơ bản trong đại số boole](lt_content:pheptoan_daisoboole)
+    - [các phép toán cơ bản trong đại số boole bao gồm gì](lt_content:pheptoan_daisoboole)
+    - [các phép toán cơ bản trong đại số boole](lt_content:pheptoan_daisoboole) bao gồm những gì
+
+    - [hàm boole](lt_content:ham_boole) là gì
+    - [hàm boole là gì](lt_content:ham_boole)
+    - [Hàm Boole là gì và cách biểu diễn chúng](lt_content:ham_boole)
+    - [Hàm Boole là gì](lt_content:ham_boole) và cách biểu diễn chúng
+
+    - [ví dụ hàm boole](lt_content:vd_hamboole)
+    - [hãy cung cấp một ví dụ về một hàm boole và biểu diễn của nó](lt_content:vd_hamboole)
+    - [ví dụ hàm boole](lt_content:vd_hamboole) là gì
+
+    - [hệ phương trình boole](lt_content:hept_boole) là gì
+    - [hệ phương trình boole là gì và cách giải chúng](lt_content:hept_boole)
+    - [hệ phương trình boole là gì](lt_content:hept_boole) và cách giải chúng
+    - [hệ phương trình boole](lt_content:hept_boole) là gì và cách giải chúng
+
+    - [ví dụ về phương trình boole](lt_content:vidu_ptboole)
+    - [cho ví dụ về một hệ phương trình boole và cách giải nó](lt_content:vidu_ptboole)
+    - [ví dụ về một hệ phương trình boole](lt_content:vidu_ptboole) và cách giải nó
+    
+    - [làm thế nào để đơn giản hóa một công thức trong đại số boole](lt_content:don_gian_cong_thuc)
+    - làm thế nào[để đơn giản hóa một công thức trong đại số boole](lt_content:don_gian_cong_thuc)
+    - [đơn giản hóa một công thức trong đại số boole](lt_content:don_gian_cong_thuc)
+
+    - [ví dụ về đơn giản công thức boole](lt_content:vd_dongian_congthuc)
+    - [cho một ví dụ về việc đơn giản hóa một công thức boole](lt_content:vd_dongian_congthuc)
+    - [ví dụ về đơn giản hóa công thức boole](lt_content:vd_dongian_congthuc)
+
+    - [quan hệ là gì](lt_content:quanhe)
+    - [quan hệ](lt_content:quanhe) là gì
+    - [quan hệ trong toán rời rạc](lt_content:quanhe) là gì
+    - [quan hệ là gì](lt_content:quanhe) là 
+    
+    - [quan hệ tương đương](lt_content:quanhe_tuongduong) là gì
+    - [quan hệ tương đương là gì trong toán rời rạc](lt_content:quanhe_tuongduong)
+    - [quan hệ tương đương](lt_content:quanhe_tuongduong) là gì trong toán rời rạc
+
+    - [quan hệ thứ tự](lt_content:quanhe_thutu) là gì
+    - [quan hệ thứ tự](lt_content:quanhe_thutu) là gì trong toán rời rạc
+    - [quan hệ thứ tự](lt_content:quanhe_thutu)
+
+    - [tính chất của quan hệ tương đương](lt_content:tinhchat_quanhe_tuongduong) là gì
+    - [tính chất của quan hệ tương đương](lt_content:tinhchat_quanhe_tuongduong)
+    - [tính chất của quan hệ tương đương là gì](lt_content:tinhchat_quanhe_tuongduong)
+
+    - [ví dụ về quan hệ thứ tự](lt_content:vidu_quanhe_thutu)
+    - [các tính chất của quan hệ thứ tự](lt_content:vidu_quanhe_thutu) là gì
+    - [các tính chất của quan hệ thứ tự là gì](lt_content:vidu_quanhe_thutu)
+
+    - [quan hệ tương đương và quan hệ thứ tự](lt_content:quanhe_tuongduong_va_quanhe_thutu)
+    - [quan hệ giữa quan hệ tương đương và quan hệ thứ tự](lt_content:quanhe_tuongduong_va_quanhe_thutu)
+    - [quan hệ giữa quan hệ tương đương và quan hệ thứ tự là gì](lt_content:quanhe_tuongduong_va_quanhe_thutu)
+
+    - [cách biểu diễn quan hệ bằng các biểu đồ hoặc đồ thị là gì](lt_content:bieudien_quanhe)
+    - [biểu diễn quan hệ bằng các biểu đồ hoặc đồ thị](lt_content:bieudien_quanhe)
+    - [biểu diễn quan hệ bằng các biểu đồ hoặc đồ thị là gì](lt_content:bieudien_quanhe)
+
+    - [định nghĩa lý thuyết chia đồng dư trong toán rời rạc](lt_content:ltchia_dongdu_dinhgnghia)
+    - [định nghĩa lý thuyết chia đồng dư](lt_content:ltchia_dongdu_dinhgnghia) trong toán rời rạc
+
+    - [định nghĩa phương trình đồng dư](lt_content:ptdongdu_dinhnghia)
+    - [định nghĩa phương trình đồng dư là gì](lt_content:ptdongdu_dinhnghia)
+
+    - [làm thế nào để giải phương trình đồng dư](lt_content:giai_ptdongdu)
+    - [làm thế nào để giải phương trình đồng dư ví dụ](lt_content:giai_ptdongdu)
+
+    - [phép chia và phép chia dư](lt_content:phepchia_phepchiadu)
+    - [phép chia và phép chia dư là gì](lt_content:phepchia_phepchiadu)
+    - [phép chia và phép chia dư](lt_content:phepchia_phepchiadu) là gì
+
+    - [tính chất phép chia dư](lt_content:tinhchat_phepchiadu)
+    - [tính chất phép chia dư là gì](lt_content:tinhchat_phepchiadu)
+    - [tính chất phép chia dư](lt_content:tinhchat_phepchiadu) là gì
+
+    - [làm thế nào để tính tích cảm động của hai số khi biết phép chia dư](lt_content:lcm)
+    - [tính tích cảm động của hai số khi biết phép chia dư](lt_content:lcm)
+
+    - [lý thuyết chia và đồng dư có ứng dụng trong lĩnh vực nào](lt_content:ltchia_dongdu_ungdung)
+
+    - [định nghĩa phép chia hết](lt_content:phepchiahet_dinhnghia)
+    - [phép chia hết](lt_content:phepchiahet_dinhnghia)
+    - [phép chia hết là gì](lt_content:phepchiahet_dinhnghia)
+    - [định nghĩa phép chia hết là gì](lt_content:phepchiahet_dinhnghia)
+
+    - [định nghĩa phép chia có dư](lt_content:phepchia_codu_dinhnghia)
+    - [định nghĩa phép chia có dư là gì](lt_content:phepchia_codu_dinhnghia)
+    - [phép chia có dư](lt_content:phepchia_codu_dinhnghia)
+    - [phép chia có dư là gì](lt_content:phepchia_codu_dinhnghia)
+
+    - [cách tính số dư khi chia một số a cho số b](lt_content:tinhsodu_ab)
+    - [tính số dư khi chia số a cho số b](lt_content:tinhsodu_ab)
+
+    - [liệt kê một số tính chất của phép chia hết và phép chia có dư](lt_content:lietke_phepchiahet_phepchiacodu)
+    - [tính chất của phép chia hết và phép chia có dư](lt_content:lietke_phepchiahet_phepchiacodu)
+    
+    - [làm thế nào để xác định xem một số nguyên có chia hết cho 2 hay không](lt_content:xacdinh_songuyen_chiahetcho2)
+    - [cách để xác định một số nguyên có chia hết cho 2 hay không](lt_content:xacdinh_songuyen_chiahetcho2)
+
+    - [làm thế nào để giải một phương trình đồng dư](lt_content:giaipt_dongdu)
+    - [cách giải một phương trình đông dư](lt_content:giaipt_dongdu)
+
+    - [định nghĩa phương trình nguyên](lt_content:ptnguyen_dinhnghia)
+    - [định nghĩa phương trình nguyên là gì](lt_content:ptnguyen_dinhnghia) 
+    - [phương trình nguyên](lt_content:ptnguyen_dinhnghia)
+
+    - [các loại phương trình nguyên phổ biến](lt_content:loai_ptnguyen_phobien)
+    - [các loại phương trình nguyên phổ biến là gì](lt_content:loai_ptnguyen_phobien)
+    - [phương trình nguyên phổ biến](lt_content:loai_ptnguyen_phobien)
+
+    - [làm thế nào để giải một phương trình nguyên đơn giản](lt_content:lamthenao_giai_ptnguyen_dongian)
+    - [giải một phương trình nguyên đơn giản](lt_content:lamthenao_giai_ptnguyen_dongian)
+    
+    - [tại sao phương trình diofanto quan trọng](lt_content:diofanto)
+    - [phương trình diofanto](lt_content:diofanto)

@@ -1,0 +1,67 @@
+version: "3.1"
+
+intents:
+  - chao_hoi
+  - tam_biet
+  - hoi_ten
+  - chuc_nang
+  - gioi_thieu
+  - muc_tieu
+  - cam_on
+  - lt_what_asking
+
+
+entities:
+  - lt_content
+
+slots:
+  lt_content:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: lt_content
+        value: lt_content
+
+
+responses:
+  utter_chaohoi:
+  - text: "Xin chào bạn! Tôi có thể giúp gì cho bạn ?"
+
+  utter_tambiet:
+  - text: "Hẹn gặp lại!"
+
+  utter_hoiten:
+  - text: "Tôi là Thỏ, là một chatbot trợ giảng môn Toán Rời Rạc"
+
+  utter_chucnang:
+  - text: "Tôi có thể trả lời các câu hỏi lý thuyết, cung cấp thông tin liên quan đến môn học."
+
+  utter_gioithieu:
+  - text: "
+           \ \n- Mã số học phần: CT172.  
+           \ \n- Số tín chỉ học phần: 4 tín chỉ. 
+           \ \n- Số tiết học phần: 60 tiết lý thuyết, 120 tiết tự học.
+           \ \n- Điều kiện tiên quyết : Không "
+
+  utter_muctieu:
+  - text: "\ \n- Kiến thức về các đối tượng rời rạc trong toán học, các phép suy luận và phương pháp chứng minh, các phương pháp đếm.
+           \ \n- Kiến thức về phép chia và quan hệ đồng dư trên tập hợp các số nguyên.
+           \ \n- Kỹ năng vận dụng các quy tắc suy luận toán học, các phương pháp chứng minh và các kiến thức khác để giải quyết những vấn đề thực tế có liên quan."
+
+
+
+  utter_cam_on:
+  - text: "Cảm ơn bạn, rất vui khi được giúp bạn."
+
+actions:
+  - utter_chaohoi
+  - utter_tambiet
+  - utter_hoiten
+  - utter_chucnang
+  - utter_gioithieu
+  - utter_muctieu
+  - utter_cam_on
+  
+  - action_traloilt
+
+
