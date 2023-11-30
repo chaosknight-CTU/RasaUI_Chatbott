@@ -93,10 +93,6 @@ const ChatContainer = () => {
     navigate("/login");
   };
 
-  const changeTheme = (value) => {
-    setTheme(value ? "dark" : "light");
-  };
-
   const onClick = (e) => {
     console.log("click ", e);
     setTheme("light"); // Set light mode when clicking on the menu items

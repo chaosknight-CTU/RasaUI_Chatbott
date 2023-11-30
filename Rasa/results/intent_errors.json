@@ -1,0 +1,90 @@
+[
+  {
+    "text": "hệ thức truy hồi là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "chuc_nang",
+      "confidence": 0.6351093649864197
+    }
+  },
+  {
+    "text": "hệ thức truy hồi là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "chuc_nang",
+      "confidence": 0.6351093649864197
+    }
+  },
+  {
+    "text": "đại số boole là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "hoi_ten",
+      "confidence": 0.5066831707954407
+    }
+  },
+  {
+    "text": "đại số boole là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "hoi_ten",
+      "confidence": 0.5066831707954407
+    }
+  },
+  {
+    "text": "hàm boole là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "chuc_nang",
+      "confidence": 0.7087023854255676
+    }
+  },
+  {
+    "text": "hàm boole là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "chuc_nang",
+      "confidence": 0.7087023854255676
+    }
+  },
+  {
+    "text": "quan hệ tương đương là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "gioi_thieu",
+      "confidence": 0.3195400536060333
+    }
+  },
+  {
+    "text": "tính chất của quan hệ tương đương là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "chuc_nang",
+      "confidence": 0.3754430413246155
+    }
+  },
+  {
+    "text": "tính chất của quan hệ tương đương",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "gioi_thieu",
+      "confidence": 0.5791158676147461
+    }
+  },
+  {
+    "text": "tính chất của quan hệ tương đương là gì",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "chuc_nang",
+      "confidence": 0.3754430413246155
+    }
+  },
+  {
+    "text": "tính số dư khi chia số a cho số b",
+    "intent": "lt_what_asking",
+    "intent_prediction": {
+      "name": "gioi_thieu",
+      "confidence": 0.9136585593223572
+    }
+  }
+]

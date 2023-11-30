@@ -62,22 +62,4 @@ router.put("/messages/:id", async (req, res) => {
   }
 });
 
-// Route to delete a message by ID
-router.delete("/messages/:id", async (req, res) => {
-  const messageId = req.params.id;
-
-  try {
-    const deletedMessage = await MessageModel.findByIdAndDelete(messageId);
-
-    if (!deletedMessage) {
-      return res.status(404).json({ error: "Message not found" });
-    }
-
-    res.json({ message: "Message deleted successfully" });
-  } catch (error) {
-    console.error("Error deleting message:", error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
-});
-
 module.exports = router;

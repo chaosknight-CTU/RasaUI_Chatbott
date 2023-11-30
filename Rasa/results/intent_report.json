@@ -1,0 +1,80 @@
+{
+  "muc_tieu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "gioi_thieu": {
+    "precision": 0.7272727272727273,
+    "recall": 1.0,
+    "f1-score": 0.8421052631578948,
+    "support": 8,
+    "confused_with": {}
+  },
+  "lt_what_asking": {
+    "precision": 1.0,
+    "recall": 0.9495412844036697,
+    "f1-score": 0.9741176470588235,
+    "support": 218,
+    "confused_with": {
+      "chuc_nang": 6,
+      "gioi_thieu": 3
+    }
+  },
+  "hoi_ten": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "cam_on": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "chuc_nang": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1-score": 0.7499999999999999,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tam_biet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "chao_hoi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "accuracy": 0.9592592592592593,
+  "macro avg": {
+    "precision": 0.8950757575757575,
+    "recall": 0.9936926605504587,
+    "f1-score": 0.9344142274134535,
+    "support": 270
+  },
+  "weighted avg": {
+    "precision": 0.9724130190796858,
+    "recall": 0.9592592592592593,
+    "f1-score": 0.9627236972407252,
+    "support": 270
+  },
+  "micro avg": {
+    "precision": 0.9592592592592593,
+    "recall": 0.9592592592592593,
+    "f1-score": 0.9592592592592593,
+    "support": 270
+  }
+}

@@ -1,0 +1,4546 @@
+[
+  {
+    "text": "toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "trr",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "toan roi rac la gi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "trr",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mệnh đề là gì cho ví dụ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "menhde",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.6981799006462097,
+        "value": "menhde",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mệnh đề là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "menhde",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.5851912498474121,
+        "value": "menhde",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "phân biệt mệnh đề khẳng định và mệnh đề phủ định",
+    "entities": [
+      {
+        "start": 0,
+        "end": 48,
+        "value": "menhde_khangdinhphudinh",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 48,
+        "confidence_entity": 0.7512186765670776,
+        "value": "menhde_khangdinhphudinh",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "giải thích mệnh đề nghi vấn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "value": "menhde_nghivan",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 5,
+        "end": 27,
+        "confidence_entity": 0.7904953956604004,
+        "value": "thích mệnh đề nghi vấn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "khác nhau mệnh đề độc lập và mệnh đề phụ thuộc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "khacnhau_menhdedoclapvaphuthuoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 5,
+        "end": 46,
+        "confidence_entity": 0.6732602119445801,
+        "value": "nhau mệnh đề độc lập và mệnh đề phụ thuộc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao mệnh đề là một phần quan trọng của câu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "taisao_menhdequantrong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9870636463165283,
+        "value": "tại sao",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.5194125771522522,
+        "value": "mệnh đề",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phân biệt giữa mệnh đề chủ đề và mệnh đề bổ nghĩa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 49,
+        "value": "menhde_chude_bonghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 32,
+        "confidence_entity": 0.655370831489563,
+        "value": "mệnh đề chủ đề và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 33,
+        "end": 49,
+        "confidence_entity": 0.5142272710800171,
+        "value": "mệnh đề bổ nghĩa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phân biệt giữa mệnh đề chủ đề mệnh đề bổ nghĩa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "menhde_chude_bonghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 29,
+        "confidence_entity": 0.6421452164649963,
+        "value": "mệnh đề chủ đề",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 30,
+        "end": 46,
+        "confidence_entity": 0.5323033332824707,
+        "value": "mệnh đề bổ nghĩa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mệnh đề phù hợp là thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "menhde_phuhop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 22,
+        "confidence_entity": 0.580989420413971,
+        "value": "mệnh đề phù hợp là thế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mệnh đề phụ hợp là thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "menhde_phuhop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 26,
+        "confidence_entity": 0.5754954218864441,
+        "value": "mệnh đề phụ hợp là thế nào",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vị từ là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "vi_tu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.8580713868141174,
+        "value": "vị từ là gì",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vị từ là gì để làm gì trong câu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "vi_tu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 31,
+        "confidence_entity": 0.5637770891189575,
+        "value": "vitu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "giải thích về vị từ nhân xứng cho ví dụ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "vitu_nhanxung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 29,
+        "confidence_entity": 0.5090530514717102,
+        "value": "vitu_nhanxung",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cho ví dụ giải thích về vị từ nhân xứng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "vitu_nhanxung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 39,
+        "confidence_entity": 0.9241470098495483,
+        "value": "thích về vị từ nhân xứng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vị từ nối tiếp là gìcho ví dụ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "vitu_noitiep",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.9675957560539246,
+        "value": "vitu_noitiep",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "vị từ nối tiếp là gì cho ví dụ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "vitu_noitiep",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.9744699001312256,
+        "value": "vitu_noitiep",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "phân biệt giữa vị từ phụ hợp và vị từ nhân xứng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 47,
+        "value": "phanbiet_vitu_phuhop_nhanxung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 31,
+        "confidence_entity": 0.6496556401252747,
+        "value": "vị từ phụ hợp và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 32,
+        "end": 47,
+        "confidence_entity": 0.5871767997741699,
+        "value": "vị từ nhân xứng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vị từ bổ sung là thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "vitu_bosung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 24,
+        "confidence_entity": 0.8426623940467834,
+        "value": "vị từ bổ sung là thế nào",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vị từ quan trọng trong việc xây dựng câu phức tại sao",
+    "entities": [
+      {
+        "start": 0,
+        "end": 45,
+        "value": "taisao_vitu_quantrong_xaydung_cauphuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 45,
+        "confidence_entity": 0.6694591641426086,
+        "value": "vị từ quan trọng trong việc xây dựng câu phức",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 46,
+        "end": 53,
+        "confidence_entity": 0.9391759634017944,
+        "value": "tại sao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao vị từ quan trọng trong việc xây dựng câu phức",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "taisao_vitu_quantrong_xaydung_cauphuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 53,
+        "confidence_entity": 0.9530646204948425,
+        "value": "taisao_vitu_quantrong_xaydung_cauphuc",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để sử dụng vị từ một cách đúng đắn để kết nối các mệnh đề trong một câu phức",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "sudung_vitu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 88,
+        "confidence_entity": 0.9062405824661255,
+        "value": "sudung_vitu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suy luận toán học là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "suyluan_toanhoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.7977746725082397,
+        "value": "suyluan_toanhoc",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suy luan toan hoc la gi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "suyluan_toanhoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tại sao suy luận toán học quan trọng trong môn toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 59,
+        "value": "taisao_suyluan_toanhoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 25,
+        "confidence_entity": 0.6663235425949097,
+        "value": "taisao_suyluan_toanhoc",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tai sao suy luan toan hoc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "taisao_suyluan_toanhoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9363545775413513,
+        "value": "sao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phân biệt giữa suy luận toán học và suy luận thông thường",
+    "entities": [
+      {
+        "start": 36,
+        "end": 57,
+        "value": "phanbiet_slth_sltt",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "phân biệt giữa suy luận toán học và suy luận thông thường",
+    "entities": [
+      {
+        "start": 0,
+        "end": 57,
+        "value": "phanbiet_slth_sltt",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "phân biệt suy luận toán học và suy luận thông thường",
+    "entities": [
+      {
+        "start": 0,
+        "end": 52,
+        "value": "phanbiet_slth_sltt",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quy tắc logic cơ bản nào được sử dụng trong suy luận toán học",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "logic_slth",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 61,
+        "confidence_entity": 0.9044697880744934,
+        "value": "logic_slth",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "giải thích về phép chứng minh toán học và vai trò của nó trong suy luận toán học",
+    "entities": [
+      {
+        "start": 14,
+        "end": 80,
+        "value": "phepchungminh_vaitro",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 80,
+        "confidence_entity": 0.6458346843719482,
+        "value": "phepchungminh_vaitro",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "giải thích về phép chứng minh toán học và vai trò của nó trong suy luận toán học",
+    "entities": [
+      {
+        "start": 14,
+        "end": 49,
+        "value": "phepchungminh_vaitro",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 80,
+        "confidence_entity": 0.6458346843719482,
+        "value": "phepchungminh_vaitro",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để xác định tính đúng đắn của một suy luận toán học",
+    "entities": [
+      {
+        "start": 24,
+        "end": 63,
+        "value": "tinhdungdan",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 63,
+        "confidence_entity": 0.9188671112060547,
+        "value": "tinhdungdan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "lý thuyết đồ thị và lý thuyết tập hợp có vai trò như thế nào trong suy luận toán học",
+    "entities": [
+      {
+        "start": 0,
+        "end": 84,
+        "value": "ltdt_ltth",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 37,
+        "confidence_entity": 0.506665825843811,
+        "value": "ltdt_ltth",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "phép đếm là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5899159908294678,
+        "value": "phepdem",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tại sao phép đếm quan trọng trong toán rời rạc và cuộc sống hàng ngày",
+    "entities": [
+      {
+        "start": 0,
+        "end": 69,
+        "value": "taisao_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.6254283785820007,
+        "value": "taisao_phepdem",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "phân biệt giữaphép đếm cơ bản và phép đếm kết hợp",
+    "entities": [
+      {
+        "start": 14,
+        "end": 49,
+        "value": "phanbiet_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "phân biệt giữa phép đếm cơ bản và phép đếm kết hợp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 50,
+        "value": "phanbiet_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "giải thích về nguyên lý cơ bản của phép đếm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 43,
+        "value": "nguyenly_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 43,
+        "confidence_entity": 0.828108549118042,
+        "value": "nguyenly_phepdem",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "giải thích nguyên lý cơ bản của phép đếm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 40,
+        "value": "nguyenly_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 11,
+        "end": 40,
+        "confidence_entity": 0.6026096343994141,
+        "value": "nguyenly_phepdem",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để tính tổng số cách xếp n đối tượng vào k vị trí khác nhau",
+    "entities": [
+      {
+        "start": 0,
+        "end": 71,
+        "value": "tinhtong_nk",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 71,
+        "confidence_entity": 0.8225576877593994,
+        "value": "tinhtong_nk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "giải thích về nguyên tắc số học trong phép đếm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "nguyentac_sohoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 46,
+        "confidence_entity": 0.5308558344841003,
+        "value": "nguyentac_sohoc",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nguyên tắc số học trong phép đếm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 32,
+        "value": "nguyentac_sohoc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9983982443809509,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.586455225944519,
+        "value": "số học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.992644190788269,
+        "value": "phepdem",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để sử dụng các công thức trong phép đếm chẳng hạn như quy tắc nhân và quy tắc cộng",
+    "entities": [
+      {
+        "start": 15,
+        "end": 51,
+        "value": "sudung_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9216071963310242,
+        "value": "sử dụng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 27,
+        "end": 51,
+        "confidence_entity": 0.5908758640289307,
+        "value": "công thức trong phép đếm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để sử dụng các công thức trong phép đếm chẳng hạn như quy tắc nhân và quy tắc cộng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 94,
+        "value": "sudung_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9216071963310242,
+        "value": "sử dụng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 27,
+        "end": 51,
+        "confidence_entity": 0.5908758640289307,
+        "value": "công thức trong phép đếm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để sử dụng các công thức trong phép đếm như quy tắc nhân và quy tắc cộng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 84,
+        "value": "sudung_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 51,
+        "confidence_entity": 0.622868537902832,
+        "value": "sudung_phepdem",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để giải quyết các bài toán phức tạp liên quan đến phép đếm",
+    "entities": [
+      {
+        "start": 30,
+        "end": 70,
+        "value": "giaiquyet_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.9826076626777649,
+        "value": "bài",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 39,
+        "end": 70,
+        "confidence_entity": 0.5578222870826721,
+        "value": "phức tạp liên quan đến phép đếm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để giải quyết các bài toán phức tạp liên quan đến phép đếm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 70,
+        "value": "giaiquyet_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.9826076626777649,
+        "value": "bài",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 39,
+        "end": 70,
+        "confidence_entity": 0.5578222870826721,
+        "value": "phức tạp liên quan đến phép đếm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "giải quyết các bài toán phức tạp liên quan đến phép đếm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 55,
+        "value": "giaiquyet_phepdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9078284502029419,
+        "value": "bài",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 24,
+        "end": 37,
+        "confidence_entity": 0.6969500780105591,
+        "value": "phức tạp liên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 43,
+        "end": 55,
+        "confidence_entity": 0.9883018136024475,
+        "value": "đến phép đếm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quy tắc suy luận trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 41,
+        "value": "quytac_suyluan",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 35,
+        "confidence_entity": 0.614193320274353,
+        "value": "quy tắc suy luận trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quy tắc suy luận trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "quytac_suyluan",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 35,
+        "confidence_entity": 0.614193320274353,
+        "value": "quy tắc suy luận trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương pháp chứng minh trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 47,
+        "value": "pp_chungminh_trr",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 41,
+        "confidence_entity": 0.5202865600585938,
+        "value": "phương pháp chứng minh trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương pháp chứng minh trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "pp_chungminh_trr",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 41,
+        "confidence_entity": 0.5202865600585938,
+        "value": "phương pháp chứng minh trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao quy tắc suy luận và phương pháp chứng minh quan trọng trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 50,
+        "value": "taisao_qtsl_ppcm_qt",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9931883811950684,
+        "value": "tại sao",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 12,
+        "end": 55,
+        "confidence_entity": 0.5203102827072144,
+        "value": "tắc suy luận và phương pháp chứng minh quan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 62,
+        "end": 72,
+        "confidence_entity": 0.6263032555580139,
+        "value": "trong toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao quy tắc suy luận và phương pháp chứng minh quan trọng trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 80,
+        "value": "taisao_qtsl_ppcm_qt",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9931883811950684,
+        "value": "tại sao",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 12,
+        "end": 55,
+        "confidence_entity": 0.5203102827072144,
+        "value": "tắc suy luận và phương pháp chứng minh quan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 62,
+        "end": 72,
+        "confidence_entity": 0.6263032555580139,
+        "value": "trong toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quy tắc suy luận Modus Ponens là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 35,
+        "value": "suyluan_modusponens",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.5249390006065369,
+        "value": "quy tắc suy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quy tắc suy luận Modus Ponens là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "value": "suyluan_modusponens",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.5249390006065369,
+        "value": "quy tắc suy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quy tắc suy luận Modus Ponens là gì",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "suyluan_modusponens",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.5249390006065369,
+        "value": "quy tắc suy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương pháp chứng minh bằng đối chứng(Proof by Contradiction) hoạt động như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "pp_chungminh_doichung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 43,
+        "confidence_entity": 0.6345747709274292,
+        "value": "pháp chứng minh bằng đối chứng(Proof",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.8358609676361084,
+        "value": "động",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương pháp chứng minh bằng đối chứnghoạt động như thế nào",
+    "entities": [
+      {
+        "start": 12,
+        "end": 37,
+        "value": "pp_chungminh_doichung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 46,
+        "confidence_entity": 0.5990636348724365,
+        "value": "pháp chứng minh bằng đối chứnghoạt động",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương pháp chứng minh bằng đối chứng hoạt động như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 59,
+        "value": "pp_chungminh_doichung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 37,
+        "confidence_entity": 0.8764172792434692,
+        "value": "pháp chứng minh bằng đối chứng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9715873003005981,
+        "value": "động",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trong chứng minh quy nạp có những bước chính nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "cacbuoc_chungminh_quynap",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.9684984683990479,
+        "value": "trong chứng minh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.998157799243927,
+        "value": "nạp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9870429039001465,
+        "value": "bước",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trong chứng minh quy nạp có những bước chính nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 48,
+        "value": "cacbuoc_chungminh_quynap",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.9684984683990479,
+        "value": "trong chứng minh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.998157799243927,
+        "value": "nạp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9870429039001465,
+        "value": "bước",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chứng minh quy nạp có những bước nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "cacbuoc_chungminh_quynap",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9509304165840149,
+        "value": "chứng minh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9966647028923035,
+        "value": "nạp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9779790043830872,
+        "value": "bước",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nguyên tắc đếm cơ bản nào trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 44,
+        "value": "nguyentacdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9989296793937683,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 11,
+        "end": 21,
+        "confidence_entity": 0.935266375541687,
+        "value": "đếm cơ bản",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nguyên tắc đếm cơ bản trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "nguyentacdem",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9988566637039185,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 11,
+        "end": 21,
+        "confidence_entity": 0.8806792497634888,
+        "value": "đếm cơ bản",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số tổ hợp là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "daiso_tohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.536102294921875,
+        "value": "tổ hợp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số tổ hợp là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "daiso_tohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.536102294921875,
+        "value": "tổ hợp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số tổ hợp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "daiso_tohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hệ thức truy hồi trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 35,
+        "confidence_entity": 0.6758537292480469,
+        "value": "hệ thức truy hồi trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9877696633338928,
+        "value": "thức",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9877696633338928,
+        "value": "thức",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 41,
+        "value": "hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 35,
+        "confidence_entity": 0.6758537292480469,
+        "value": "hệ thức truy hồi trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số tổ hợp có ứng dụng trong cuộc sống hàng ngày như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "ungdung_daisotohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.6717686653137207,
+        "value": "tổ hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.7364462018013,
+        "value": "ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ứng dụng đại số tổ hợp trong cuộc sống hằng ngày",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "ungdung_daisotohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.527842104434967,
+        "value": "ứng dụng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 13,
+        "end": 28,
+        "confidence_entity": 0.6628180742263794,
+        "value": "số tổ hợp trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.749422013759613,
+        "value": "hằng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số tổ hợp có ứng dụng trong cuộc sống hàng ngày như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 63,
+        "value": "ungdung_daisotohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.6717686653137207,
+        "value": "tổ hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.7364462018013,
+        "value": "ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số tổ hợp có ứng dụng trong cuộc sống hàng ngày như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 51,
+        "value": "ungdung_daisotohop",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.6717686653137207,
+        "value": "tổ hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.7364462018013,
+        "value": "ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi có ứng dụng trong việc giải quyết bài toán nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 63,
+        "value": "ungdung_hethuctruyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 3,
+        "end": 16,
+        "confidence_entity": 0.7970108985900879,
+        "value": "thức truy hồi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 20,
+        "end": 39,
+        "confidence_entity": 0.943098783493042,
+        "value": "ứng dụng trong việc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.9546095132827759,
+        "value": "bài toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ứng dụng của hệ thức truy hồi trong việc giải quyết bài toán nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "value": "ungdung_hethuctruyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 40,
+        "confidence_entity": 0.8927804827690125,
+        "value": "ứng dụng của hệ thức truy hồi trong việc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 52,
+        "end": 60,
+        "confidence_entity": 0.9785202145576477,
+        "value": "bài toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi có ưng dụng trong việc giải quyết bài toán nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 28,
+        "value": "ungdung_hethuctruyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.8005616068840027,
+        "value": "thức truy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 20,
+        "end": 39,
+        "confidence_entity": 0.9789373278617859,
+        "value": "ưng dụng trong việc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.9364115595817566,
+        "value": "bài toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sự khác biết của quy tắc số học và quy tắc cộng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 47,
+        "value": "khacbiet_quytacsohoc_quytaccong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.6340807676315308,
+        "value": "số học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quy tắc số học và quy tắc cộng có điểm khác biệt như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 60,
+        "value": "khacbiet_quytacsohoc_quytaccong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tại sao tổ hợp được sử dụng trong lý thuyết thông tin và mã hóa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 63,
+        "value": "taisao_tohop_ltth_mahoa",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.8990732431411743,
+        "value": "tại sao tổ hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 20,
+        "end": 43,
+        "confidence_entity": 0.5361899137496948,
+        "value": "sử dụng trong lý thuyết",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao tổ hợp được sử dụng trong lý thuyết thông tin và mã hóa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "taisao_tohop_ltth_mahoa",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.8990732431411743,
+        "value": "tại sao tổ hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 20,
+        "end": 43,
+        "confidence_entity": 0.5361899137496948,
+        "value": "sử dụng trong lý thuyết",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao tổ hợp được sử dụng trong lý thuyết thông tin và mã hóa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "value": "taisao_tohop_ltth_mahoa",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.8990732431411743,
+        "value": "tại sao tổ hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 20,
+        "end": 43,
+        "confidence_entity": 0.5361899137496948,
+        "value": "sử dụng trong lý thuyết",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi được sử dụng trong giải quyết bài toán đệ quy cho ví dụ về việc sử dụng hệ thức truy hồi trong bài toán tháp Hanoi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 131,
+        "value": "dequy_hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 35,
+        "confidence_entity": 0.6588402986526489,
+        "value": "hệ thức truy hồi được sử dụng trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 47,
+        "end": 58,
+        "confidence_entity": 0.9806508421897888,
+        "value": "bài toán đệ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 76,
+        "end": 80,
+        "confidence_entity": 0.9964287877082825,
+        "value": "việc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 81,
+        "end": 111,
+        "confidence_entity": 0.526463508605957,
+        "value": "sử dụng hệ thức truy hồi trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 112,
+        "end": 120,
+        "confidence_entity": 0.9889899492263794,
+        "value": "bài toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ thức truy hồi được sử dụng trong giải quyết bài toán đệ quy cho ví dụ về việc sử dụng hệ thức truy hồi trong bài toán tháp hanoi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 62,
+        "value": "dequy_hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 35,
+        "confidence_entity": 0.571350634098053,
+        "value": "hệ thức truy hồi được sử dụng trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 47,
+        "end": 58,
+        "confidence_entity": 0.9814876317977905,
+        "value": "bài toán đệ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 76,
+        "end": 80,
+        "confidence_entity": 0.9969123601913452,
+        "value": "việc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 81,
+        "end": 111,
+        "confidence_entity": 0.5127897262573242,
+        "value": "sử dụng hệ thức truy hồi trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 112,
+        "end": 125,
+        "confidence_entity": 0.9836604595184326,
+        "value": "bài toán tháp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho ví dụ về việc sử dụng hệ thức truy hồi trong bài toán tháp hanoi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 68,
+        "value": "dequy_hethuc_truyhoi",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 48,
+        "confidence_entity": 0.947010338306427,
+        "value": "về việc sử dụng hệ thức truy hồi trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 49,
+        "end": 68,
+        "confidence_entity": 0.5542073845863342,
+        "value": "bài toán tháp hanoi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số boole là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "daiso_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đại số boole là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "daiso_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "đại số boole là gì và tại sao nó quan trọng trong lĩnh vực toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 71,
+        "value": "daiso_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.779819905757904,
+        "value": "đại số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.9981597065925598,
+        "value": "và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 22,
+        "end": 37,
+        "confidence_entity": 0.7351752519607544,
+        "value": "tại sao nó quan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 44,
+        "end": 63,
+        "confidence_entity": 0.5817586779594421,
+        "value": "trong lĩnh vực toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đại số boole là gì và tại sao nó quan trọng trong lĩnh vực toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 43,
+        "value": "daiso_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.779819905757904,
+        "value": "đại số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.9981597065925598,
+        "value": "và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 22,
+        "end": 37,
+        "confidence_entity": 0.7351752519607544,
+        "value": "tại sao nó quan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 44,
+        "end": 63,
+        "confidence_entity": 0.5817586779594421,
+        "value": "trong lĩnh vực toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các phép toán cơ bản trong đại số boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "pheptoan_daisoboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 33,
+        "confidence_entity": 0.49596908688545227,
+        "value": "các phép toán cơ bản trong đại số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các phép toán cơ bản trong đại số boole bao gồm gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 50,
+        "value": "pheptoan_daisoboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 33,
+        "confidence_entity": 0.6300728917121887,
+        "value": "các phép toán cơ bản trong đại số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các phép toán cơ bản trong đại số boole bao gồm những gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "pheptoan_daisoboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 4,
+        "end": 26,
+        "confidence_entity": 0.9150027632713318,
+        "value": "phép toán cơ bản trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.9946615099906921,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hàm boole là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "ham_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hàm boole là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "ham_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hàm Boole là gì và cách biểu diễn chúng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "ham_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9927467703819275,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hàm Boole là gì và cách biểu diễn chúng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "ham_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9927467703819275,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ hàm boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "vd_hamboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hãy cung cấp một ví dụ về một hàm boole và biểu diễn của nó",
+    "entities": [
+      {
+        "start": 0,
+        "end": 59,
+        "value": "vd_hamboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.6048922538757324,
+        "value": "cung cấp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 40,
+        "end": 42,
+        "confidence_entity": 0.9494379162788391,
+        "value": "và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 53,
+        "end": 59,
+        "confidence_entity": 0.861088752746582,
+        "value": "của nó",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ hàm boole là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "vd_hamboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hệ phương trình boole là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "hept_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hệ phương trình boole là gì và cách giải chúng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "hept_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9160668253898621,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.8603529930114746,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ phương trình boole là gì và cách giải chúng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "value": "hept_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9160668253898621,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.8603529930114746,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hệ phương trình boole là gì và cách giải chúng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "hept_boole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9160668253898621,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.8603529930114746,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ về phương trình boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "value": "vidu_ptboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.775268018245697,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho ví dụ về một hệ phương trình boole và cách giải nó",
+    "entities": [
+      {
+        "start": 0,
+        "end": 54,
+        "value": "vidu_ptboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.5128160119056702,
+        "value": "hệ phương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.8857182860374451,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9913414120674133,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 52,
+        "end": 54,
+        "confidence_entity": 0.847222626209259,
+        "value": "nó",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ về một hệ phương trình boole và cách giải nó",
+    "entities": [
+      {
+        "start": 0,
+        "end": 34,
+        "value": "vidu_ptboole",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.41460511088371277,
+        "value": "phương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.8649479746818542,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9936038851737976,
+        "value": "và cách",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 48,
+        "end": 50,
+        "confidence_entity": 0.8448213338851929,
+        "value": "nó",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để đơn giản hóa một công thức trong đại số boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 60,
+        "value": "don_gian_cong_thuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 54,
+        "confidence_entity": 0.6290585994720459,
+        "value": "đơn giản hóa một công thức trong đại số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nàođể đơn giản hóa một công thức trong đại số boole",
+    "entities": [
+      {
+        "start": 11,
+        "end": 59,
+        "value": "don_gian_cong_thuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 46,
+        "confidence_entity": 0.6277906894683838,
+        "value": "đơn giản hóa một công thức trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 51,
+        "end": 53,
+        "confidence_entity": 0.9953945279121399,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "đơn giản hóa một công thức trong đại số boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 45,
+        "value": "don_gian_cong_thuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 9,
+        "end": 32,
+        "confidence_entity": 0.6606673002243042,
+        "value": "hóa một công thức trong",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 37,
+        "end": 39,
+        "confidence_entity": 0.9957054257392883,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ về đơn giản công thức boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 33,
+        "value": "vd_dongian_congthuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.5823444128036499,
+        "value": "về đơn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9977721571922302,
+        "value": "công thức",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho một ví dụ về việc đơn giản hóa một công thức boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 54,
+        "value": "vd_dongian_congthuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.8746342062950134,
+        "value": "một",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 48,
+        "confidence_entity": 0.8851138353347778,
+        "value": "về việc đơn giản hóa một công thức",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ về đơn giản hóa công thức boole",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "vd_dongian_congthuc",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.5586466789245605,
+        "value": "về đơn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.8908193707466125,
+        "value": "hóa công thức",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quan hệ là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ trong toán rời rạc là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 5,
+        "end": 26,
+        "confidence_entity": 0.5409589409828186,
+        "value": "hệ trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quan hệ là gì là",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ tương đương là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "quanhe_tuongduong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ tương đương là gì trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 44,
+        "value": "quanhe_tuongduong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ tương đương là gì trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "quanhe_tuongduong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ thứ tự là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ thứ tự là gì trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.5247410535812378,
+        "value": "quan hệ thứ tự",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 39,
+        "confidence_entity": 0.6013805270195007,
+        "value": "gì trong toán rời rạc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quan hệ thứ tự",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tính chất của quan hệ tương đương là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 33,
+        "value": "tinhchat_quanhe_tuongduong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8279427289962769,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính chất của quan hệ tương đương",
+    "entities": [
+      {
+        "start": 0,
+        "end": 33,
+        "value": "tinhchat_quanhe_tuongduong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6256741881370544,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính chất của quan hệ tương đương là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "tinhchat_quanhe_tuongduong",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8279427289962769,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ví dụ về quan hệ thứ tự",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "vidu_quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.7527641654014587,
+        "value": "hệ thứ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các tính chất của quan hệ thứ tự là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 32,
+        "value": "vidu_quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.9207962155342102,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 32,
+        "confidence_entity": 0.5263838171958923,
+        "value": "của quan hệ thứ tự",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các tính chất của quan hệ thứ tự là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "value": "vidu_quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.9207962155342102,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 32,
+        "confidence_entity": 0.5263838171958923,
+        "value": "của quan hệ thứ tự",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quan hệ tương đương và quan hệ thứ tự",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "quanhe_tuongduong_va_quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ giữa quan hệ tương đương và quan hệ thứ tự",
+    "entities": [
+      {
+        "start": 0,
+        "end": 50,
+        "value": "quanhe_tuongduong_va_quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quan hệ giữa quan hệ tương đương và quan hệ thứ tự là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 56,
+        "value": "quanhe_tuongduong_va_quanhe_thutu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cách biểu diễn quan hệ bằng các biểu đồ hoặc đồ thị là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 57,
+        "value": "bieudien_quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5788257718086243,
+        "value": "cách",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 37,
+        "end": 39,
+        "confidence_entity": 0.9972009658813477,
+        "value": "đồ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.9960540533065796,
+        "value": "đồ thị",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "biểu diễn quan hệ bằng các biểu đồ hoặc đồ thị",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "bieudien_quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9707360863685608,
+        "value": "đồ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.5200988054275513,
+        "value": "đồ thị",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "biểu diễn quan hệ bằng các biểu đồ hoặc đồ thị là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 52,
+        "value": "bieudien_quanhe",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9922439455986023,
+        "value": "đồ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.988594651222229,
+        "value": "đồ thị",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa lý thuyết chia đồng dư trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 52,
+        "value": "ltchia_dongdu_dinhgnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.5166224241256714,
+        "value": "định nghĩa lý thuyết",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.992016077041626,
+        "value": "đồng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.6147995591163635,
+        "value": "trong toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa lý thuyết chia đồng dư trong toán rời rạc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 33,
+        "value": "ltchia_dongdu_dinhgnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.5166224241256714,
+        "value": "định nghĩa lý thuyết",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.992016077041626,
+        "value": "đồng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.6147995591163635,
+        "value": "trong toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phương trình đồng dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "value": "ptdongdu_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6511827707290649,
+        "value": "định nghĩa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.7933102250099182,
+        "value": "trình đồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phương trình đồng dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "ptdongdu_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6551504731178284,
+        "value": "định nghĩa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.9027706384658813,
+        "value": "trình đồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để giải phương trình đồng dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 40,
+        "value": "giai_ptdongdu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.8823664784431458,
+        "value": "trình đồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để giải phương trình đồng dư ví dụ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "giai_ptdongdu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.9216100573539734,
+        "value": "trình đồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phép chia và phép chia dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "phepchia_phepchiadu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.49590909481048584,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9823811650276184,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phép chia và phép chia dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "value": "phepchia_phepchiadu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6677396893501282,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.6755132675170898,
+        "value": "và phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phép chia và phép chia dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "phepchia_phepchiadu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6677396893501282,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.6755132675170898,
+        "value": "và phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính chất phép chia dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "tinhchat_phepchiadu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.942874550819397,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9870060682296753,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính chất phép chia dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 28,
+        "value": "tinhchat_phepchiadu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9793459177017212,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9970910549163818,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính chất phép chia dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "tinhchat_phepchiadu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9793459177017212,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9970910549163818,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để tính tích cảm động của hai số khi biết phép chia dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 66,
+        "value": "lcm",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.8671249747276306,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.7205281257629395,
+        "value": "động của",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 42,
+        "end": 44,
+        "confidence_entity": 0.8450478315353394,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 54,
+        "end": 58,
+        "confidence_entity": 0.9945893287658691,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính tích cảm động của hai số khi biết phép chia dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 51,
+        "value": "lcm",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9267550110816956,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.8517049551010132,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.9807393550872803,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lý thuyết chia và đồng dư có ứng dụng trong lĩnh vực nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 56,
+        "value": "ltchia_dongdu_ungdung",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9181952476501465,
+        "value": "lý thuyết",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.6135364174842834,
+        "value": "và đồng dư",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 29,
+        "end": 52,
+        "confidence_entity": 0.827852189540863,
+        "value": "ứng dụng trong lĩnh vực",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phép chia hết",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "phepchiahet_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5976805686950684,
+        "value": "định nghĩa phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phép chia hết",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "phepchiahet_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "phép chia hết là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "phepchiahet_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6151620149612427,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phép chia hết là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "phepchiahet_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5240300297737122,
+        "value": "định nghĩa phép",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.7721177935600281,
+        "value": "hết",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phép chia có dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "phepchia_codu_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.6265561580657959,
+        "value": "định nghĩa phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phép chia có dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 32,
+        "value": "phepchia_codu_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.665046215057373,
+        "value": "định nghĩa phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phép chia có dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "phepchia_codu_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "phép chia có dư là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "phepchia_codu_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6256144642829895,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cách tính số dư khi chia một số a cho số b",
+    "entities": [
+      {
+        "start": 0,
+        "end": 42,
+        "value": "tinhsodu_ab",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8765804171562195,
+        "value": "cách",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9456984400749207,
+        "value": "tính số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.7978733777999878,
+        "value": "số a",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 38,
+        "end": 40,
+        "confidence_entity": 0.9581553339958191,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính số dư khi chia số a cho số b",
+    "entities": [
+      {
+        "start": 0,
+        "end": 33,
+        "value": "tinhsodu_ab",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.7769367098808289,
+        "value": "tính số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.7775089144706726,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.6334342360496521,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "liệt kê một số tính chất của phép chia hết và phép chia có dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 61,
+        "value": "lietke_phepchiahet_phepchiacodu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.5441527366638184,
+        "value": "số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.8671131730079651,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9841370582580566,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.966292679309845,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tính chất của phép chia hết và phép chia có dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 46,
+        "value": "lietke_phepchiahet_phepchiacodu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.938150942325592,
+        "value": "tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9845709800720215,
+        "value": "phép",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.5125604271888733,
+        "value": "và phép",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để xác định xem một số nguyên có chia hết cho 2 hay không",
+    "entities": [
+      {
+        "start": 0,
+        "end": 69,
+        "value": "xacdinh_songuyen_chiahetcho2",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 15,
+        "end": 34,
+        "confidence_entity": 0.5450845956802368,
+        "value": "xác định xem một số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.998045802116394,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cách để xác định một số nguyên có chia hết cho 2 hay không",
+    "entities": [
+      {
+        "start": 0,
+        "end": 58,
+        "value": "xacdinh_songuyen_chiahetcho2",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9349803328514099,
+        "value": "cách",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 8,
+        "end": 23,
+        "confidence_entity": 0.7634060382843018,
+        "value": "xác định một số",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9985432624816895,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 39,
+        "end": 42,
+        "confidence_entity": 0.7340361475944519,
+        "value": "hết",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 49,
+        "end": 52,
+        "confidence_entity": 0.7295628786087036,
+        "value": "hay",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để giải một phương trình đồng dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 44,
+        "value": "giaipt_dongdu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 31,
+        "end": 41,
+        "confidence_entity": 0.8951883912086487,
+        "value": "trình đồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cách giải một phương trình đông dư",
+    "entities": [
+      {
+        "start": 0,
+        "end": 34,
+        "value": "giaipt_dongdu",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.7426413893699646,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phương trình nguyên",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "ptnguyen_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6428117752075195,
+        "value": "định nghĩa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9590912461280823,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9989866614341736,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "định nghĩa phương trình nguyên là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 36,
+        "value": "ptnguyen_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6570433974266052,
+        "value": "định nghĩa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.8802172541618347,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9992265701293945,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương trình nguyên",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "ptnguyen_dinhnghia",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.6234700083732605,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9851874113082886,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các loại phương trình nguyên phổ biến",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "loai_ptnguyen_phobien",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.6317475438117981,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9871728420257568,
+        "value": "nguyên phổ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "các loại phương trình nguyên phổ biến là gì",
+    "entities": [
+      {
+        "start": 0,
+        "end": 43,
+        "value": "loai_ptnguyen_phobien",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.8143948316574097,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9937257170677185,
+        "value": "nguyên phổ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương trình nguyên phổ biến",
+    "entities": [
+      {
+        "start": 0,
+        "end": 28,
+        "value": "loai_ptnguyen_phobien",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.6290185451507568,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9962544441223145,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "làm thế nào để giải một phương trình nguyên đơn giản",
+    "entities": [
+      {
+        "start": 0,
+        "end": 52,
+        "value": "lamthenao_giai_ptnguyen_dongian",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.886965811252594,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.9987667798995972,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "giải một phương trình nguyên đơn giản",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "lamthenao_giai_ptnguyen_dongian",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.7012954354286194,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lt_content",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9989271759986877,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tại sao phương trình diofanto quan trọng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 40,
+        "value": "diofanto",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lt_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.762401282787323,
+        "value": "tại sao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phương trình diofanto",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "diofanto",
+        "entity": "lt_content"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
