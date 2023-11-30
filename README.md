@@ -1,4 +1,4 @@
-# Dự Án Chatbot Xử Lý Tin Nhắn Tự Động
+# Dự Án Chatbot Xử Lý Tin Nhắn Tự Động Môn Toán Rời Rạc
 
 ## Mô Tả Tổng Quan:
 
