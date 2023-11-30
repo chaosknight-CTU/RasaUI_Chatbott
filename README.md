@@ -46,7 +46,7 @@ Dự án này là một hệ thống chatbot đơn giản nhằm xử lý tin nh
    npm run dev
 5. Truy cập ứng dụng trong trình duyệt tại địa chỉ: http://localhost:3000
    
-**Tương lai phát triển**
+   **Tương lai phát triển**:
       - **Tích hợp nâng cao**
       - Mở rộng khả năng xử lý tin nhắn của chatbot bằng cách tích hợp các mô hình NLP mạnh mẽ hơn.
       - **Giao diện người dùng**
@@ -54,7 +54,7 @@ Dự án này là một hệ thống chatbot đơn giản nhằm xử lý tin nh
       - **Tích hợp công nghệ mới**
       - Sử dụng các công nghệ mới để cải thiện hiệu suất và trải nghiệm người dùng.
         
-**Đóng góp và Phát triển**
+   **Đóng góp và Phát triển**:
       Nếu bạn muốn đóng góp vào dự án hoặc có ý kiến đóng góp, hãy tạo một issue hoặc pull request trên GitHub.
 
 Cảm ơn bạn đã quan tâm đến dự án này! 🚀
