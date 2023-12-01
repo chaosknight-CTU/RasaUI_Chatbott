@@ -41,10 +41,13 @@ Dự án này là một hệ thống chatbot đơn giản nhằm xử lý tin nh
 3. Cài đặt các dependencies:
    ```bash
    npm install
-4. Chạy frontend và backend cùng một lúc:
+4. Lệnh để chạy Frontend:
    ```bash
-   npm run dev
-5. Truy cập ứng dụng trong trình duyệt tại địa chỉ: http://localhost:3000
+   npm start
+5. Lệnh để chạy Backend
+   ```bash
+   npm run serve
+6. Truy cập ứng dụng trong trình duyệt tại địa chỉ: http://localhost:3000
    
    **Tương lai phát triển**:
       - **Tích hợp nâng cao**
